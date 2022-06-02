@@ -1,0 +1,336 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.all{
+  width: 100%;
+  height: 4000px;
+  background:#fafafa;
+}
+.header{
+width: 100%;
+min-height: 4em;
+max-height: 7em;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+background: url(bg.jpg);
+ background-size: cover;
+ background-position: center left;
+background-size:cover;
+color: #fcfcfc;
+opacity: 0.87;
+}
+ .header-nav{
+   height: auto;
+   width: 55%;
+   display: block;
+   margin: auto 0 auto 0;
+ }
+  .header ul{
+   margin: 0;
+   display: flex;
+   flex-flow: wrap;
+   padding: 0;
+   width: 100%;
+   justify-content: space-around;
+  }
+   .header li{
+   display: inline;
+   }
+   .header li a{
+     text-decoration: none;
+     color: inherit;
+     font-size: 23px;
+   }
+ .header-circle{
+  width: auto;
+  height: auto;
+  display: block;
+  margin: auto 0 auto 0;
+ }
+
+.content{
+width: 100%;
+min-height: 90%;
+}
+ .content-title{
+   height: auto;
+   width: auto;
+   display: block;
+   padding: 5em 0 5em 0;
+
+ }
+  .content-title h1{
+    width: 10em;
+    font-size: 3em;
+    display: block;
+    text-align: center;
+    font-family: 'Roboto',Arial,sans-serif;
+    margin: 0 auto 0 auto;
+    color: #eeeeee;
+  }
+  /* COMBAK:text-shadow: -1px 3px 3px #9f2323, 0px 3px 2px #212121;  */
+   .content-title h1 span
+   {
+     background:#ce1a21;
+
+   }
+  .content-title .p-text{
+    font-size: 1.2em;
+    width: 31em;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 700;
+    padding: 1em 0 0 0;
+    margin: 0 auto 0 auto;
+    border-bottom: 2px ridge black;
+  }
+ .tikets{
+   display: flex;
+   flex-flow: row wrap;
+   width: 100%;
+   height: auto;
+   justify-content: space-around;
+   padding: 4em 0 4em 0;
+   background: url(bg.jpg);
+    background-size: cover;
+    background-position: bottom right;
+   background-size:cover;
+ }
+  .item{
+    width: 35em;
+    height: 17em;
+    background: #1e1e1e;
+    opacity: 0.96;
+    color: #ebebeb ;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 1.1em 0.5em 1.1em;
+  }
+  .arrow-text{
+    width: 100%;
+    height: auto;
+    font-family: "RussianRail_G_Pro","Arial","sans-serif";
+    font-size:  30px;
+
+  }
+  .f{
+    justify-content: space-between;
+  }
+   .reg{
+     width: 100%;
+     height: 27%;
+   }
+    .f-text{
+      color: #767d89;
+      font-size: .75em;
+      border-bottom: .8px solid #767d89;
+      padding-bottom: 8px;
+    }
+    .r-buttons{
+      color: #e45e5e;
+      padding-top: 16px;
+    }
+  .s{
+    justify-content: space-space-between;
+  }
+   .s-text{
+    color: #767d89;
+    font-size: 1em;
+    padding-top: 2.7em;
+   }
+   .portal-reg{
+     font-family: "RussianRail_G_Pro","Arial","sans-serif";
+     margin-top: 1.2em;
+     text-align: center;
+     font-size: 1.75em;
+     border: 2px solid #ebebeb;
+     height: 1.28em;
+     padding-top: 0.32em;
+   }
+  .t{
+    background-color: #962e28;
+    color: #edebeb;
+  }
+   .item-t-list{
+     padding-top: 1.7em;
+     width: 91%;
+     font-family: "IBM_Plex_Sans","Arial",sans-serif;
+   }
+   .item-t-list ul{
+     list-style-type: none;
+     font-size: 1.15em;
+   }
+   .item-t-list ul li{
+     border-bottom: 1px solid #edebeb;
+     padding-bottom: .56em;
+   }
+.after-tikets{
+      height: auto;
+      width: 70%;
+      display: block;
+      margin: 0 auto 0 auto;
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+      margin-top: 6em;
+      padding-bottom: 9em;
+}
+ .p-directions{
+   font-family: 'Roboto',Arial,sans-serif;
+   display: flex;
+   flex-flow: column wrap;
+ }
+  .p-directions-title{
+    margin: 0;
+    color: #21283e;
+    text-align: center;
+    padding-top: 0.4em;
+   }
+  .p-directions-text{
+    display: inline-flex;
+    padding-top: 4em;
+    justify-content: space-around;
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+   }
+   .p-directions-text ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   }
+   .p-directions-text ul li{
+     padding-top: .5em;
+     border-bottom: 1px solid #cd2026;
+   }
+.f-trains{
+  font-family: 'Roboto',Arial,sans-serif;
+  width: 82%;
+  margin: 0 auto 0 auto;
+  display: block;
+}
+ .f-trains-title{
+   margin: 0;
+   text-align: center;
+   padding-top: 6em;
+ }
+ .f-trains-content{
+   width: auto;
+   display: flex;
+   flex-flow: row wrap;
+   padding-top: 3em;
+ }
+  .f-trains-content-item{
+    width: 50%;
+  }
+   .f-trains-content-item h2{
+     padding: 1em 0 .2em 0;
+     margin: 0;
+   }
+   .f-trains-content-item ul{
+     font-family: 'Roboto',Arial,sans-serif;
+     font-size: 19px;
+     margin: 0;
+     padding: 0;
+   }
+    .f-trains-content-item ul li{
+      list-style-type: none;
+      padding-bottom: .43em;
+      margin-right: 10em;
+      padding-top: .43em;
+      border-bottom: 1px solid #cd2026;
+    }
+  .f-trains p{
+    margin: 0;
+    padding-top: 3em;
+
+    display: block;
+    width: 100%;
+    font-size: 19px;
+    color:#21283e;
+    font-family:'Roboto';
+    line-height: 1.84;
+  }
+
+.p-t-trains{
+  width: 95%;
+  margin: 0 auto 0 auto;
+  display: block;
+  font-family: 'Roboto',Arial,sans-serif;
+}
+ .p-t-trains-title{
+   text-align: center;
+   padding: 3em 0 .2em 0;
+ }
+ .p-t-trains-content{
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   margin: 0 auto 0 auto;
+ }
+  .p-t-trains-content ul
+  {
+   list-style-type: none;
+  }
+   .p-t-trains-content ul li
+   {
+     border-bottom: 1px solid #cd2026;
+     padding-bottom: .43em;
+     padding-top: .43em;
+     font-size: 19px;
+   }
+.q-tiket{
+  width: 82%;
+  display: block;
+  margin: 0 auto 0 auto;
+  font-family: 'Roboto',Arial,sans-serif;
+  padding: 3em 5em 3em 5em;
+  margin-top: 9em;
+  color: #28345;
+  text-align: center;
+}
+  .q-tiket h2
+  {
+   margin: 0;
+   color: #cd2026;
+   padding-bottom: 2em;
+  }
+  .q-tiket p{
+    margin: 0;
+     padding-bottom: 1.2em;
+     font-size: 18px;
+  }
+  .q-tiket p span{
+
+
+  }
+
+
+
+.footer{
+width: 100%;
+min-height: 20em;
+box-shadow: 0 -14px 28px rgba(0,0,0,0.25), 0 -10px 10px rgba(0,0,0,0.22);
+font-family: 'Roboto',Arial,sans-serif;
+}
+ .sizer{
+   width: 70%;
+   display: block;
+   margin: 0 auto 0 auto;
+ }
+.sizer h1{
+  margin: 0;
+  text-align: center;
+  padding: .5em 0 .5em 0;
+  color: #28345a;
+}
+.sizer p{
+  margin: 0;
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 19px;
+  color: #28345a;
+}
